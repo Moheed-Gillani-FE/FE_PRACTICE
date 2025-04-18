@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-2 {
+    gap: 4px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.p-3 {
+    padding: 12px;
+}
