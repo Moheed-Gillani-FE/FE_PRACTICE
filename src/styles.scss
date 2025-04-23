@@ -7,11 +7,20 @@
 .flex {
     display: flex;
 }
-
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
 .gap-2 {
     gap: 4px;
 }
 
+.mt-3 {
+    margin-top: 6px;
+}
 .items-center {
     align-items: center;
 }
@@ -22,6 +31,13 @@
 
 .h-full {
     height: 100%;
+}
+
+.w-full-screen {
+    width: 100vw;
+}
+.h-full-screen {
+    height: 100vh;
 }
 
 .p-3 {

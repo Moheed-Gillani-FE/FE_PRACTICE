@@ -6,6 +6,7 @@ import { Toolbar } from 'primeng/toolbar';
 import { AvatarModule } from 'primeng/avatar';
 import { MenuModule } from 'primeng/menu';
 import { ButtonModule } from 'primeng/button';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     SideMenuComponent, 
@@ -16,7 +17,8 @@ import { ButtonModule } from 'primeng/button';
     Toolbar, 
     AvatarModule, 
     ButtonModule,
-    MenuModule
+    MenuModule,
+    RouterModule
   ],
   exports: [
     SideMenuComponent, 
