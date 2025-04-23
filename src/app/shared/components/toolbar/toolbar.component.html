@@ -7,6 +7,8 @@
           <ng-template #end>
               <div class="flex items-center gap-2">
                   <p-button label="Share" severity="contrast" size="small" />
+                  <p-button label="Login" severity="contrast" size="small" [routerLink]="['/signin']"></p-button>
+                  <p-button label="Sign Up" severity="contrast" size="small" [routerLink]="['/signup']"></p-button> 
                   <p-avatar
                       image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
                       [style]="{ width: '32px', height: '32px' }"
